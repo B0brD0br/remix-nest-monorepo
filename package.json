@@ -1,0 +1,20 @@
+{
+  "name": "remix-nest-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "pnpm biome lint",
+    "lint:fix": "pnpm biome check --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "turbo": "^2.0.12"
+  }
+}
